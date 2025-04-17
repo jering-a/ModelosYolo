@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Female_20-30', 'Female_30-40', 'Female_40-50', 'Female_50-60', 'Male_20-30', 'Male_30-40', 'Male_40-50', 'Male_50-60']
+
+roboflow:
+  workspace: jero-vru0i
+  project: gender-and-age-vg3z5
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jero-vru0i/gender-and-age-vg3z5/dataset/10
